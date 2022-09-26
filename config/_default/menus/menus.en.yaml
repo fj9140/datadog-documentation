@@ -7478,6 +7478,32 @@ api:
     url: /api/latest/incidents/
     identifier: incidents
     generated: true
+  - name: 'Create, update, and delete incident attachments'
+    url: '#create,-update,-and-delete-incident-attachments'
+    identifier: 'incidents-create,-update,-and-delete-incident-attachments'
+    parent: incidents
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - UpdateIncidentAttachments
+      unstable:
+        - v2
+      order: 0
+  - name: Get a list of attachments
+    url: '#get-a-list-of-attachments'
+    identifier: incidents-get-a-list-of-attachments
+    parent: incidents
+    generated: true
+    params:
+      versions:
+        - v2
+      operationids:
+        - ListIncidentAttachments
+      unstable:
+        - v2
+      order: 0
   - name: Update an existing incident
     url: '#update-an-existing-incident'
     identifier: incidents-update-an-existing-incident
