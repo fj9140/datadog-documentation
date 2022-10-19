@@ -165,7 +165,7 @@ From an individual dashboard, Datadog offers suggestions for viewing related das
 
 ## Dashboard list
 
-Search, view, or create dashboards and lists on the [Dashboard List][15] page. 
+Search, view, or create dashboards and lists on the [Dashboard List][15] page.
 
 ### New list
 
